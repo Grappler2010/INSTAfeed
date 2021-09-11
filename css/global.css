@@ -2,5 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: Lato;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.wrapper {
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.first-section {
+  background-color: var(--purple);
+  height: 1680px;
+  background-image: url("/img/photo_1.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.second-section {
+  height: 1024px;
+}
+
+.third-section {
+  background-color: var(--grey);
+  height: 1976px;
+}
+
+.fourth-section {
+  background-color: var(--purple);
+  height: 1185px;
 }
